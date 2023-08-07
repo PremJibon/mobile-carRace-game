@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing-Car-game</title>
+</head>
+<body>
+    <div id="game">
+        <div id="bluecar"><img src="blue.png" alt=""></div>
+        <div id="racecar"><img src="race.png" alt=""></div>
+    </div>
+    
+    <div class="button">
+        <button id="left">Left</button>
+        <button id="right">Right</button>
+    </div>
+    <div id="result">
+        <h1>Game Over</h1>
+        <p id="score"></p>
+        <button id="btn" onclick="location.reload()">restart</button>
+    </div>
+    <audio id='jumpsound' src="jumpsound.mp3"></audio>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
