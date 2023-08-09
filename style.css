@@ -80,3 +80,9 @@
     cursor: pointer;
     text-transform: uppercase;
 }
+#left:active,#right:active{
+    background-color:red;    
+}
+#btn:active{
+background-color:green;
+}
